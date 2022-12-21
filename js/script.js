@@ -1,4 +1,4 @@
-// * preparazione
+// prendo l'elemento
 
 const teamElement = document.getElementById('team'); 
 
@@ -34,7 +34,7 @@ const ourTeam = [{
     role: 'Graphic Designer',
 }];
 
-//! creo un ciclo for per girare nell'Aray ed una variabile d'appoggio
+// creo il for per mettere tutti i dati
 
 let profile = '';
 for(let i = 0; i < ourTeam.length; i++){
@@ -47,5 +47,7 @@ for(let i = 0; i < ourTeam.length; i++){
                         </div>`
            
 }
+
+// stampo in pagina
 
 teamElement.innerHTML =  profile
